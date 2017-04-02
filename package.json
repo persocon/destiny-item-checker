@@ -1,0 +1,40 @@
+{
+  "name": "destiny-item-checker",
+  "version": "0.0.1",
+  "description": "Destiny Item Checker",
+  "main": "src/bundle.js",
+  "author": "Pedro Costa Neves",
+  "license": "MIT",
+  "repository": "https://github.com/persocon/destiny-item-checker.git",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "axios": "0.16.0",
+    "babel-core": "6.24.0",
+    "babel-loader": "6.4.1",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-env": "1.3.2",
+    "babel-preset-es2015": "6.24.0",
+    "babel-preset-react": "6.23.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "redux": "3.6.0",
+    "redux-saga": "0.14.4",
+    "webpack": "2.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "7.2.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-flowtype": "2.30.4",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.3",
+    "flow-bin": "^0.42.0",
+    "webpack-dev-server": "2.4.2"
+  }
+}
